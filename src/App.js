@@ -21,7 +21,7 @@ function App() {
         <h1 className="fourth_message">
           I'm currently accepting freelance work.
           <br /> You can contact me at{" "}
-          <a href="hachaniamir@gmail.com">hachaniamir@gmail.com</a>
+          <a href="mailto:hachaniamir@gmail.com">hachaniamir@gmail.com</a>
         </h1>
       </div>
       <div className="links">
@@ -37,7 +37,13 @@ function App() {
         <h1 className="fifth_message">Have a nice day</h1>
       </div>
       <div>
-        <h1 className="sixth_message"> <span role="img" aria-label="waving hand">👀</span> H.</h1>
+        <h1 className="sixth_message">
+          {" "}
+          <span role="img" aria-label="waving hand">
+            👀
+          </span>{" "}
+          H.
+        </h1>
       </div>
     </div>
   );
