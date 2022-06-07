@@ -21,7 +21,6 @@ body {
   border-radius: 50px;
   font-weight: 100;
   color: rgb(57, 49, 49);
-  
 }
 
 .first_message {
@@ -110,10 +109,6 @@ body {
   border-radius: 50px;
   font-weight: 300;
   margin-top: -15px;
-}
-
-.fade_in {
-  transition: opacity 2s ease;
 }
 
 .fade_out {

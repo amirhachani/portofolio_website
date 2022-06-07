@@ -2,13 +2,11 @@ import { useEffect, useState } from "react";
 import "./App.css";
 
 function App() {
-  const [fade, setFade] = useState("fade_in");
+  const [fade, setFade] = useState("");
 
   const effect = () => {
     setTimeout(() => {
-      if (fade) {
         setFade("fade_out");
-      }
     }, 2000);
   };
 
