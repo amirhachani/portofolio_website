@@ -1,8 +1,26 @@
+import { useEffect, useState } from "react";
 import "./App.css";
 
 function App() {
+  const [fade, setFade] = useState("fade_in");
+
+  const effect = () => {
+    setTimeout(() => {
+      if (fade) {
+        setFade("fade_out");
+      }
+    }, 2000);
+  };
+
+  useEffect(() => {
+    effect();
+  });
+
   return (
     <div className="messages_wrapper">
+      <div className={`header_date ${fade}`}>
+        <h1 className="header_date_text">TODAY</h1>
+      </div>
       <div>
         <h1 className="first_message">
           Hello There{" "}
